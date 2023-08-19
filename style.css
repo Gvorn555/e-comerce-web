@@ -1,0 +1,195 @@
+
+/* Custom styling for the navigation bar */
+.navbar {
+    
+    border-radius: 0; /* Remove border radius */
+}
+
+.navbar-brand {
+   
+    font-size: 24px; /* Increase brand font size */
+    font-weight: bold; /* Make brand text bold */
+}
+
+.navbar-toggler {
+    margin-left: 50px;
+    border: none; /* Remove border from toggler */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Change toggler icon color */
+}
+
+.navbar-nav .nav-item {
+    margin: 5px 15px; /* Add horizontal spacing between items */
+}
+
+/* Additional styling for navigation links */
+.navbar-nav .nav-link {
+    transition: color 0.3s ease-in-out;
+    color: #ccc; /* Default text color */
+    font-size: 18px;
+    text-transform: uppercase; /* Convert text to uppercase */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8;
+}
+
+/* Active link styling */
+.navbar-nav .nav-item.active .nav-link {
+    color: #17a2b8;
+    background-color: transparent; /* Remove background for active link */
+}
+
+/* Adjust media query for responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+}
+
+
+
+/* add lg lg */
+
+ul.menu li img {
+    width: 20px; /* menu brand  logoooooooooooooooooo */
+    height: 20px; /* Adjust the height as needed */
+    vertical-align: middle; /* Align the image vertically with the text */
+    margin-right: 15px; /* Add spacing between the image and text */
+}
+
+.menu li img {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    margin-right: 5px; /* Add spacing between the image and text */
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: red; /* Change the color to your desired hover color */
+    transform: scale(1.1);
+    
+}
+/* add lg lg */
+
+
+
+.nav-item {
+    position: relative;
+    
+  }
+  
+  .nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-item:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content {
+    border-radius: .25rem;
+    display: none;
+    width:250px;
+    margin-top: 1px;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    border-radius: .25rem;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .navbar-dark .navbar-nav .nav-item .nav-link img {
+    transition: transform 0.3s;/* Add transition for smooth effect */
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover img {
+    transform: scale(1.5); /* Increase the scale on hover (adjust as needed) */
+}
+
+
+/* dak lg lgk */
+
+
+
+
+
+.textbox-h2 {
+    
+    font-size: 1.2rem;
+    color: #020202;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-card {
+    position: relative; /* Set the parent as a relative positioning context */
+    border: 5px solid #ddd;
+    height: 300px;
+    padding: 15px;
+    margin: 15px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+	max-height: 60%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #343a40;
+}
+
+.product-card p {
+	
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.product-card button {
+    position: absolute; /* Position the button absolutely */
+    bottom: 15px; /* Adjust the distance from the bottom */
+    left: 50%; /* Center the button horizontally */
+    transform: translateX(-50%); /* Adjust to center the button */
+    margin-top: 18px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    background-color: #e9ecef;
+}
+
+/* Styling for the "Buy Now" button */
+.btn-primary {
+    background-color: #1434ec;
+    border-color: #4a76a4;
+}
+
+.btn-primary:hover {
+    background-color: #1cd45c;
+    border-color: #6aa0d9;
+}
+
+
+    
